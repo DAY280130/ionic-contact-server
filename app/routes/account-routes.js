@@ -5,7 +5,7 @@ module.exports = (app) => {
   // router.get("/", accounts.findAll);
   // router.get("/:id", accounts.find);
   router.post("/", accounts.create);
-  router.post("/token", accounts.getToken);
+  router.post("/login", accounts.getToken);
   // router.put("/:id", accounts.update);
   // router.delete("/:id", accounts.delete);
 
